@@ -1,1 +1,3 @@
 # Audio_steganography
+
+The system allows users to seamlessly encrypt or decrypt audio signals by embedding input messages within them, utilizing techniques that ensure no distortion occurs in the audio output. The messages are securely retrieved using the original encryption key, enhancing privacy and confidentiality. By employing symmetric encryption methods such as AES (Advanced Encryption Standard), the input messages are encrypted before being embedded into the audio file using least significant bit (LSB) manipulation. This dual approach of steganography and encryption guarantees that even if the audio file is accessed, the hidden messages remain secure and protected without the appropriate key for decryption.
